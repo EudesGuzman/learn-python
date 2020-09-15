@@ -21,6 +21,12 @@ def get_allStudentColors():
     #your loop here
 
 
+def aleatorio():
+    aleatorio = random.randrange(1,5)
+    return aleatorio
+
+for x in range(0,10):
+   print(get_color(aleatorio()))
 
 
 
